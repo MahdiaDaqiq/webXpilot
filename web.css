@@ -74,15 +74,15 @@ body {
     width:0px; height:0px;
     
     position:relative;  
-    -webkit-perspective:1200px;
+    -webkit-perspective:120px;
     -webkit-perspective-origin:50% 50%;
-    perspective:1200px;
+    perspective:120px;
     perspective-origin:50% 50%;
   }
   .pyramid3d {
     position:relative;
     width: 12.5%;
-    height: 4.85vh;
+    height: 9.85vh;
     
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
