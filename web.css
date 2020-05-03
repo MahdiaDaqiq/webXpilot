@@ -69,8 +69,8 @@ body {
     -webkit-transform:scale(1.85);
     transform:scale(0.85);
     float:left;
-    margin-right:0px;
-    margin-top:0px;
+    margin-right:120px;
+    margin-top:30px;
     width:0px; height:0px;
     
     position:relative;  
@@ -81,8 +81,8 @@ body {
   }
   .pyramid3d {
     position:relative;
-    width: 12.5%;
-    height: 9.85vh;
+    width: 9.5%;
+    height: 6.85vh;
     
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
