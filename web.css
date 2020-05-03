@@ -102,7 +102,7 @@ body {
     position: absolute;
     height: 0; width: 0;
     border-style: solid;
-    border-width: 176px 75px 0 75px;
+    border-width: 176px 50px 0 50px;
   }
   .side1 { -webkit-transform: translatex(0) rotatey(115.2deg) rotatez(90deg); transform: translatex(0) rotatey(115.2deg) rotatez(90deg); }
   .side2 { -webkit-transform: translatex(150px) rotatez(90deg) rotatex(64.8deg); transform: translatex(150px) rotatez(90deg) rotatex(64.8deg); }
