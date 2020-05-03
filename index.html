@@ -1,10 +1,46 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link href="web.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <link href="web.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="main_style.css">
 </head>
-<body>
-<div id="container">
+<body>  
+  <header>
+    <nav>
+      <figure>
+        <a href="index.html">
+          <img src="#">
+        </a>
+      </figure>
+
+      <h1><p>Peggotty Investment Club</p></h1>
+
+      <div class="DropDown-Menu">
+        <ul>
+          <li>About Us <i class="fa fa-caret-down"></i>
+            <ul> 
+              <a href="history.html">History</a>
+              <a href="Current_Members.html">Current Members</a>
+              <a href="#">Alumni</a>
+              <a href="#">Contact Us</a>
+            </ul>
+          </li>
+          <li>Performance <i class="fa fa-caret-down"></i>
+            <ul>
+              <a href="Portfolio_Performance.html">Portfolio</a>
+              <a href="#">Technology Sector</a>
+            </ul>
+          </li>
+          <li>Resources <i class="fa fa-caret-down"></i>
+            <ul>
+              <a href="Password_Resources.html">Club Resources</a>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="container">
     <div id="content">
       <div id="about">
         <h1>
@@ -21,19 +57,20 @@
           </div> 
         </h1>
         <h3 style='clear:both' class="subhead">
-           This project consists of using evolving an xpilot agent that has a production system and some fuzzy logic. Two separate Genetic Algorithms will be used; one on the variables inside the production system and one used on the fuzzy logic functions values. The goal is to see how the xpilot agent would evolve depending on the type of opponent it plays against. It will be tested  twice on 2 different sets. The first time, it would play against two different types of opponent; a more defensive agent, a more aggressive. Both opposing agents so move at relatively the same speed, but their decision making should be totally different. On the second set, it will play against two agents again, but this time one slow/non-moving agent and then against a fast moving agent. As of now, some important factors remains to be decided such as the fitness function and the exact rules of the game. As the project moves along, an update will be posted. The map should be just the simple map for now as it has less obstacle and therefore gives more room to focus on the opponent. Some results analysis will then be made to see how the agent evolved against the different opponents. Moreover, some more analysis on how well it was able to do and long it took to evolve. 
-          </h3>
-          <h2>INSPIRATION:</h2>
-          <h3>
-            This project was inspired by the fact that an original xpilot agent, which used fuzzy logic and a production system was performing super well against others relatively slow and unintelligent agents, but as it plays against smarter and evolved agents that moved relatively faster, it did poorly. Moreover, the authors were inspired by a certain paper by Andrew Hubley and Gary Parker titled <a src = https://www.researchgate.net/publication/224204723_Using_a_fuzzy_logic_control_system_for_an_Xpilot_combat_agent> “Using A Fuzzy Logic Control System For An Xpilot Combat Agent.”</a>
-          </h3>
+         This project consists of using evolving an xpilot agent that has a production system and some fuzzy logic. Two separate Genetic Algorithms will be used; one on the variables inside the production system and one used on the fuzzy logic functions values. The goal is to see how the xpilot agent would evolve depending on the type of opponent it plays against. It will be tested  twice on 2 different sets. The first time, it would play against two different types of opponent; a more defensive agent, a more aggressive. Both opposing agents so move at relatively the same speed, but their decision making should be totally different. On the second set, it will play against two agents again, but this time one slow/non-moving agent and then against a fast moving agent. As of now, some important factors remains to be decided such as the fitness function and the exact rules of the game. As the project moves along, an update will be posted. The map should be just the simple map for now as it has less obstacle and therefore gives more room to focus on the opponent. Some results analysis will then be made to see how the agent evolved against the different opponents. Moreover, some more analysis on how well it was able to do and long it took to evolve. 
+       </h3>
+       <h2>INSPIRATION:</h2>
+       <h3>
+        This project was inspired by the fact that an original xpilot agent, which used fuzzy logic and a production system was performing super well against others relatively slow and unintelligent agents, but as it plays against smarter and evolved agents that moved relatively faster, it did poorly. A certain paper by Andrew Hubley and Gary Parker titled <a src = https://www.researchgate.net/publication/224204723_Using_a_fuzzy_logic_control_system_for_an_Xpilot_combat_agent> “Using A Fuzzy Logic Control System For An Xpilot Combat Agent.”</a> made it clear that most of the time, fuzzy logic systems need some adjustments especially at the level of their functions. The idea of using genetic algorithms to solve this problem of adjustments came up. A paper from Plerou, Vlamou, Papadopoulos written in 2016 called <a src = https://www.researchgate.net/publication/312212400_Fuzzy_Genetic_Algorithms_Fuzzy_Logic_Controllers_and_Genetics_Algorithms>"Fuzzy Genetic Algorithms:
+        Fuzzy Logic Controllers and Genetics Algorithms"</a>reaffirm that GAs can be used to solve the problem of adjusting the fuzzy functions. 
+      </h3>
 
-        TEAM: MATHIEU VINGEAULT, MAHDIA DAQIQ
-        <p id='pleft'>
-          
-        </p>
-      </div>
+      TEAM: MATHIEU VINGEAULT, MAHDIA DAQIQ
+      <p id='pleft'>
+
+      </p>
     </div>
   </div>
+</div>
 </body>
 </html>

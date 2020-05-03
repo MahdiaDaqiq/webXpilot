@@ -1,0 +1,145 @@
+* {
+	/*resets the default margin and padding values of all HTML elements*/
+	margin: 0;
+	padding: 0;
+
+	/*resets the box model to border-box for all HTML elements.*/
+	box-sizing: border-box;
+}
+
+.navigation-block{
+	background-color: white;
+	opacity: 70%;
+	height: 200px;
+	z-index: 1;
+}
+
+nav {
+	background-color: white;
+	height: 10vh;
+	border-bottom: 0.15vw solid black;
+	z-index: 1;
+}
+
+nav figure {
+	width: 12.5%;
+	height: 9.85vh;
+	text-align: center;
+	float: left;
+	z-index: 1;
+}
+
+nav img {
+	max-height: 100%;
+	max-width: 100%; 
+	z-index: 1;
+}
+
+nav h1 {
+	color: black;
+	width: 37.5%;
+	height: 10vh;
+	display: table;
+	position: relative;
+	font-size: 3vw;
+	float: left;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+nav h1 p {
+	display: table-cell;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+.DropDown-Menu a {
+	color: white;
+	/*border: 3px solid white;*/
+	position: relative;
+	top: 70px;
+	left: 400px;
+	width: 50%;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 20px;
+	z-index: 1;
+}
+
+.DropDown-Menu:hover a {
+	background-color: white;
+	color: black;
+	z-index: 1;
+
+}
+
+/* The container <div> or box - needed to position the dropdown content */
+.DropDown-Menu {
+	list-style: none;
+	position: relative;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	background-color: white;
+	float: left;
+}
+
+.DropDown-Menu > ul {
+	list-style: none;
+	float: left;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: table;
+}
+
+.DropDown-Menu > ul > li {
+	color: black;
+	font-size: 1.5vw;
+	font-family: "Times New Roman"; 
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.DropDown-Menu ul li:hover{
+	background-color: midnightblue;
+	color: white;
+	text-decoration: underline;
+	transition-duration: 0.5s;
+}
+
+.DropDown-Menu > ul > li > ul {
+	list-style: none;
+	color: black;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	display: none;
+}
+
+.DropDown-Menu > ul > li > ul > a {
+	list-style: none;
+	color: black;
+	position: relative;
+	top: 100%;
+	width: 100%;
+	left: 0%;
+	font-size: 1.25vw;
+	color: black;
+	text-align: center;
+	display: block;
+	background-color: white;
+}
+
+.DropDown-Menu ul li:hover ul {
+	display: block;
+}
+
+.DropDown-Menu ul li ul a:hover {
+	background-color: lightgrey;
+	display: block;
+}
