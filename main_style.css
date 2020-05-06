@@ -83,6 +83,7 @@ nav h1 p {
 	display: inline-block;
 	background-color: white;
 	float: left;
+
 }
 
 .DropDown-Menu > ul {
@@ -106,7 +107,7 @@ nav h1 p {
 }
 
 .DropDown-Menu ul li:hover{
-	background-color: midnightblue;
+	background-color: black;
 	color: white;
 	text-decoration: underline;
 	transition-duration: 0.5s;
