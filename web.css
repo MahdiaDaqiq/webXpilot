@@ -37,6 +37,7 @@ body {
       font-weight: 90;
       line-height: 1.5;
   }
+
   p, li {
       font-size: 1.7em;
   }
@@ -138,4 +139,10 @@ body {
       p, li { font-size: 1em; }
       p#pright { margin-left:3em; }
       .stage { -webkit-transform:scale(0.85); transform:scale(0.85); margin-right:120px; }
+  }
+
+  .bullets {
+      margin: 10%;
+      float: center;
+      font-size: 3em;
   }
