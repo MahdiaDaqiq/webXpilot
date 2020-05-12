@@ -109,7 +109,7 @@ nav h1 p {
 }
 
 .DropDown-Menu ul li:hover{
-	background-color: lightgray;
+	background-color: lightgrey;
 	color: black;
 	text-decoration: underline;
 	transition-duration: 0.5s;
