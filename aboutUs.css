@@ -27,6 +27,7 @@
 .Block2 img {
 	height: 400px;
 	width: 400px;
+	background-color: black;
 	border: 0.25vw solid black;
 }
 
@@ -37,11 +38,10 @@
 }
 
 .Block2 li {
-	display: inline-block
+	display: inline-block;
 	text-align: center;
 	float: center;
 	height: 45vh;
 	width: 45vh;
 	margin: 50px 50px;
 }
-
