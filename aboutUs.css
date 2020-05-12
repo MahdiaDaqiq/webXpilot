@@ -7,16 +7,14 @@
 	box-sizing: border-box;
 }
 
-.main{
-	background-color: lightgray;
-}
 
-.Board_Members {
+
+.Block2 {
 	background-color: lightgray;
 	padding-bottom: 50px;
 }
 
-.Board_Members h1 {
+.Block2 h1 {
 	color: white;
 	font-size: 50px;
 	font-weight: 600;
@@ -27,7 +25,7 @@
 	background-color: navy;
 }
 
-.Board_Members img {
+.Block2 img {
 	height: 400px;
 	width: 400px;
 	background-color: black;
