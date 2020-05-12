@@ -70,7 +70,7 @@ nav h1 p {
 
 .DropDown-Menu:hover a {
 	background-color: white;
-	color: lightgray;
+	color: black;
 	z-index: 1;
 
 }
@@ -109,7 +109,7 @@ nav h1 p {
 }
 
 .DropDown-Menu ul li:hover{
-	background-color: black;
+	background-color: lightgray;
 	color: white;
 	text-decoration: underline;
 	transition-duration: 0.5s;
