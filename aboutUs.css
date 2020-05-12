@@ -10,7 +10,7 @@
 
 
 .Block2 {
-	background-color: lightgray;
+	background-color: pink;
 	padding-bottom: 50px;
 }
 
@@ -32,13 +32,13 @@
 	border: 0.25vw solid black;
 }
 
-.Board_Members ul{
+.Block2 ul{
 	list-style: none;
 	display: block;
 	text-align: center;
 }
 
-.Board_Members li {
+.Block2 li {
 	display: inline-block;
 	background-color: lightgray;
 	text-align: center;
@@ -94,22 +94,6 @@
 }
 
 .Members h1 {
-	color: white;
-	font-size: 50px;
-	font-weight: 600;
-	font-family: "Times New Roman";
-	text-align: center;
-	padding: 20px;
-	vertical-align: middle;
-	background-color: navy;
-}
-
-.First_Year_Members {
-	background-color: lightgray;
-	padding-bottom: 50px;
-}
-
-.First_Year_Members h1 {
 	color: white;
 	font-size: 50px;
 	font-weight: 600;
