@@ -70,7 +70,7 @@ nav h1 p {
 
 .DropDown-Menu:hover a {
 	background-color: white;
-	color: black;
+	color: lightgray;
 	z-index: 1;
 
 }
