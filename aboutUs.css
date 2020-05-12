@@ -21,6 +21,9 @@
 	vertical-align: middle;
 }
 
+.Block1 p {
+	padding: 50px;
+}
 
 .Block2 {
 	padding-bottom: 50px;
