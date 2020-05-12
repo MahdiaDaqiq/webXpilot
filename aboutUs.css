@@ -1,0 +1,124 @@
+* {
+	/*resets the default margin and padding values of all HTML elements*/
+	margin: 0;
+	padding: 0;
+
+	/*resets the box model to border-box for all HTML elements.*/
+	box-sizing: border-box;
+}
+
+.main{
+	background-color: lightgray;
+}
+
+.Board_Members {
+	background-color: lightgray;
+	padding-bottom: 50px;
+}
+
+.Board_Members h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: navy;
+}
+
+.Board_Members img {
+	height: 400px;
+	width: 400px;
+	background-color: black;
+	border: 0.25vw solid black;
+}
+
+.Board_Members ul{
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+.Board_Members li {
+	display: inline-block;
+	background-color: lightgray;
+	text-align: center;
+	float: center;
+	height: 45vh;
+	width: 45vh;
+	margin: 50px 50px;
+}
+
+.Senior_Analyst_Members {
+	padding-bottom: 50px;
+	background-color: lightgray;
+}
+
+
+.Senior_Analyst_Members h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	text-align: center;
+	padding: 20px;
+	vertical-align: middle;
+	background-color: navy;
+}
+
+.Senior_Analyst_Members img {
+	height: 400px;
+	width: 400px;
+	border: 0.25vw solid black;
+	background-color: black;
+}
+
+.Senior_Analyst_Members ul{
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+.Senior_Analyst_Members li {
+	display: inline-block;
+	background-color: lightgray;
+	text-align: center;
+	float: center;
+	height: 45vh;
+	width: 45vh;
+	margin: 50px 50px;
+}
+
+.Members {
+	background-color: lightgray;
+	padding-bottom: 50px;
+}
+
+.Members h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	text-align: center;
+	padding: 20px;
+	vertical-align: middle;
+	background-color: navy;
+}
+
+.First_Year_Members {
+	background-color: lightgray;
+	padding-bottom: 50px;
+}
+
+.First_Year_Members h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	text-align: center;
+	padding: 20px;
+	vertical-align: middle;
+	background-color: navy;
+}
+
