@@ -26,6 +26,7 @@ nav figure {
 	width: 10%;
 	height: 9.85vh;
 	text-align: center;
+	border-bottom: 0.15vw solid black;
 	float: left;
 	z-index: 1;
 }
