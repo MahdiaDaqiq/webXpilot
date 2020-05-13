@@ -14,7 +14,7 @@
 .Step-Step h1 {
 	color: white;
 	font-size: 50px;
-	font-weight: 600;
+	font-weight: 400;
 	font-family: "Times New Roman";
 	padding: 20px;
 	text-align: center;
@@ -23,7 +23,7 @@
 
 .Step-Step h2 {
 	color: white;
-	font-weight: 300;
+	font-weight: 200;
 	font-family: "Times New Roman";
 	margin: 10px 25px;
 }
