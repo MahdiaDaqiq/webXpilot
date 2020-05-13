@@ -1,0 +1,15 @@
+.ref h2{
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.ref li{
+    font-size: 30px;
+
+}
