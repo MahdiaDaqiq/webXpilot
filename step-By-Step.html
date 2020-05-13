@@ -39,20 +39,23 @@
       </div>
     </nav>
   </header>
-  <div id="container">
-    <div id="content">
-      <div id="about">
+  <div id="Step-Step">
+    <h1>Detailed Process of Project</h1>
+    <h2>Make a plan</h2>
+    <p> The first and most important thing we did as a team is divide the entire project into different smaller problems and assigned these to one another based on our strengths. It was determine that we should begin by making the opposing agents that our fuzzy logic agent played against. After consultation, it was set that we would have to make three different agents: one aggressive smart agent, one defensive smart agent, and one fuzzy agent that would use a genetic algorith. These agents were named "TigerKing", "Rabbit" and "Dumpster" respectively. 
+    </p>
+    <ul>
+      <li class="bullets">Dumpster - An Evolving Xpilot Fuzzy Agent</li> 
+      <li class="bullets">Rabbit - Xpilot Offensive Agent</li> 
+      <li class="bullets">Tiger King - Xpilot Defensive Agent</li> 
+    </ul>
+    <h2>Creating Rabbit</h2> 
+    <p>Rabbit was estblish to be the more defensive type agent that our fuzzy agent would play against. To make it relatively defensive, we developed a genetic algorithm that has a fitness score based on survival. Basically, Rabbit would get points for the longer it stays alive and some minor penalties if it gets killed by the other agent or if it crashes into a wall. It was crucial to make Rabbit learn before it faced Dumpster as the goal was to have Dumpster play a smartt defensive agent. The training of Rabbit was done against one of the robots that the xpilot game push into the game when allowed. These robots are extremely aggressive as they tend to follow and attack the opposing robot right away and it does not give up until it either dies or make the kill. The results of the training were relatively good. Rabbit learned how to stay alive longer over time until it hit a certain point in its learning.The following variables were coontrolled inside the production system by the genetic algorithm: frontwall_Alert, backwall_Alert, slowtrackwall_Alert, fasttrackwall_Alert, Enemy_Alert and finally Bullet_alert. All of these variables were necessary for the wall avoidance rules, the bullet avoidance rules, the shooting rules and the turning rules. The genetic algorithm as composed of 32 chromosmes total with a population totalling 64 individuals for each generation. A crossover rate of 70% and a mutation rate of 1% were used during training. The selection process was done by choosing the individuals with a better fitness. In other words, the more fitted an individual was the more chance the individual would have to reproduce and even survive. 
+    </p> 
+    <h2>Creating TigerKing</h2>
+    <p>TigerKing was made exactly like Rabbit except for its fitness function. Instead of allowing more score for staying alive, the method allowed a greater score when the agent would make a kill. There was also a time factor involved, where the faster TigerKing would make a kill to end the round, the more fitness would be given. It also had the same chromosome size, population size and rates as Rabbit. The training on TigerKing did not go as planned. It barely trained at all and that might have been due to the fact that the eother agent it was facing was not great at all and therefore TigerKing killed the agent in a relatively short period of time straight from the first generation. 
+    </p> 
 
-        <div >
-          <ul>
-            <li class="bullets">Dumpster - An Evolving Xpilot Fuzzy Agent</li> 
-            <li class="bullets">Rabbit - Xpilot Offensive Agent</li> 
-            <li class="bullets">Tiger King - Xpilot Defensive Agent</li> 
-          </ul>
-        </div>
-        
-      </div>
-    </div>
   </div>
 
 </body>
