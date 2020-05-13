@@ -1,0 +1,18 @@
+* {
+	/*resets the default margin and padding values of all HTML elements*/
+	margin: 0;
+	padding: 0;
+
+	/*resets the box model to border-box for all HTML elements.*/
+	box-sizing: border-box;
+}
+
+.Step-Step h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
