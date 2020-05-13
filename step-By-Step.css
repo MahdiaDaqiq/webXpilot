@@ -7,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+.Step-Step {
+	padding-bottom: 50px;
+}
+
 .Step-Step h1 {
 	color: white;
 	font-size: 50px;
