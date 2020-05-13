@@ -3,6 +3,8 @@
   <meta charset="UTF-8">
   <link href="web.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="main_style.css">
+  <link rel="stylesheet" type="text/css" href="descrption.css">
+
 </head>
 <body>  
   <header>
@@ -41,14 +43,75 @@
   </header>
   <div id="container">
     <div id="content">
-      <div id="about">
+      <div id="about" class="des">
 
+        <div style='float:left; margin-bottom:20px;'>
+          <h2>
+          AN EVOLVING XPILOT FUZZY AGENT
+        
+          </h2>
+        </div>
         <div >
-          <ul>
-            <li class="bullets">Dumpster - An Evolving Xpilot Fuzzy Agent</li> 
-            <li class="bullets">Rabbit - Xpilot Offensive Agent</li> 
-            <li class="bullets">Tiger King - Xpilot Defensive Agent</li> 
-          </ul>
+          <br>
+          <p style='clear:both' class="subhead" >
+            The project consists of creating an xpilot fuzzy agent and make the fuzzy sets adaptable to various situations, maps, opponents. The fuzzy agent utilizes a genetic algorithm to evolve over time in the goal of staying alive as long as possible. Staying alive involve the need for killing, hiding, avoiding walls and avoiding bullets. The ultimate goal of the agent is to win, by being the last one staying no matter what it is facing because of its ability to adapt and its use of fuzzy logic.
+          </p>
+          <br>
+          <br>
+          <br>
+          <h2 > HYPOTHESIS</h2>
+          <p>
+            The hypothesis of the project was that the evolving agent that utilizes a fuzzy logic would be able to adjust its fuzzy sets depending on its opponents to eventually be able to learn a winning strategy. A winning strategy is just a strategy that kills the other agent or agents that it is facing in battle by either killing them or staying alive longer than its opponent, who might end up crashing into a wall. The belief was that if the agent plays a very aggressive agent or a relatively defensive agent, it would be able to adapt itself by creating totally different fuzzy sets. 
+          </p>
+          <br>
+          <br>
+          <br>
+          <h2 >XPILOT-AI</h2>
+          <p>
+            “XPilot is an open-source 2-dimensional space combat simulator which is playable over the internet. Multiple players can connect to a central XPilot server and compete in many varieties of gameplay, such as free-for-all combat, capture-the-flag, or team combat. Each player controls a space-ship that can turn, thrust, and shoot. There is often a variety of weapons and ship upgrades available on the particular map in which they play. The game uses synchronized client/server networking to allow for solid network play. Xpilot-AI is being developed as a platform for research in autonomous agent learning.
+            Modifications have been made to XPilot to create a system for testing artificial intelligence (AI) agent learning systems. The XPilot client, which a player uses to join with an XPilot server, is mainly used to display relevant information about the game world to the player and to capture keyboard and mouse input that it sends it to the server. Between each frame, the client receives from the server information that is needed to display the player's ship and the surroundings. This information is intercepted and converted into variables relevant for use with an AI agent. Keyboard strokes and mouse movements to control the ship are simulated.” -Xpilot-AI 2020 retrieved from: <a href="http://xpilot-ai.org/" style="color:whitesmoke"><u>Xpilot-AI</u></a>
+          </p>
+          <br>
+          <br>
+          <br>
+
+          <h2 >FUZZY LOGIC</h2>
+          <p>
+            “Fuzzy logic is determined as a set of mathematical principles for knowledge representation based on degrees of membership rather than on crisp membership of classical binary logic
+A fuzzy set is a class of objects with a continuum of grades of membership. Such a set is characterized by a membership (characteristic) function which assigns to each object a grade of membership ranging between zero and one. The notions of inclusion, union, intersection, complement, relation, convexity, etc., are extended to such sets, and various properties of these notions in the context of fuzzy sets are established.” (Zadeh, 1965)
+To learn more about FL _link_ <a href="https://www.sciencedirect.com/science/article/pii/S001999586590241X?via%3Dihub
+" style="color:whitesmoke"> <u>Fuzzy-Logic</u></a>
+          </p>
+          <br>
+          <br>
+          <br>
+
+          <h2>GENETIC ALGORITHMS</h2>
+          <p>
+            Genetic algorithms is a heuristic search that is inspired by Charles Darwin’s theory of natural selection.  This algorithm exhibits the methods of natural selection where the individuals with the heights fitness are chosen for reproduction in order to produce offspring of the next generation.
+<br>
+Genetics algorithms reflect Natural Selection through five phases: Initial Population, fitness function, Selection, Crossover and Mutation
+ 
+<br>
+Initial Population is a set of chromosomes (individuals) where each chromosome is a solution for the problem you to be solved. 
+<br>
+Fitness function is a function where each individual can be calculated based on their desirable traits. The individuals who carry desirable traits will get a higher fitness score than the individuals who do not. 
+<br>
+Selection: is a process where two chromosomes are selected to reproduce. The individuals selected are random but the higher the chromosome’s fitness score will allow them to have a higher chance of getting selected during the selection process. 
+<br>
+Crossover: is when the two selected chromosome combines through different methods to form the child chromosome. 
+<br>
+Mutation: considers the possibility of a gene(byte) in the chromosome mutating. Although the possibility is small some bits in the chromosome could be flipped.
+ 
+To learn more about GA _link_  <a href="https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3
+" style="color:whitesmoke"><u>Genetic_Algorithm</u></a>
+          </p>
+          <br>
+          <br>
+          <br>
+          <p id='pleft'>
+  
+          </p>
         </div>
         
       </div>
