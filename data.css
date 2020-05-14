@@ -1,0 +1,19 @@
+.res h2{
+	color: white;
+	font-size: 41px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+.res h3{
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: "Times New Roman";
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
